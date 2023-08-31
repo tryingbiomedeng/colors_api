@@ -1,0 +1,50 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex;
+  text-align: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #d5fff9;
+  font-family: 'Comic Sans MS', cursive;
+}
+
+h1 {
+  background-color: rgb(146, 127, 255);
+  margin: 10px;
+  padding: 20px;
+  border-color: #222a33;
+  border-radius: 20px;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #222a33;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #d733dd;
+}
+
+.color-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.color-name {
+  text-align: center;
+  margin-top: 40px;
+  color: white;
+  font-size: 18px;
+  text-shadow: -2px -2px 0 rgb(0, 0, 0), 2px -2px 0 rgb(0, 0, 0), -2px 2px 0 rgb(0, 0, 0), 2px 2px 0 rgb(0, 0, 0);
+}
+
+.color {
+  background-color: color;
+  border: 2px solid rgb(0, 0, 0);
+  position: relative;
+}
